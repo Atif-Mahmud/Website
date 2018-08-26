@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LayoutComponent } from './layout/layout.component';
 import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     NavigationComponent,
     LayoutComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent
   ],
   exports: [
     LayoutComponent
