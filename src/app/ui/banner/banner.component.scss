@@ -1,0 +1,277 @@
+header {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container-lg {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 670px) {
+    #intro .container-lg {
+        margin-top: -14%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.announcement {
+    display: inline-block;
+    width: calc(100% + 40px);
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 0 30px -20px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0,0,140,.08);
+}
+
+@media (min-width: 670px) {
+    .announcement {
+        line-height: 26px;
+        margin: 0 0 55px;
+        margin-left: 0px !important;
+        padding: 0 12px 0 5px;
+        border-radius: 15px;
+        width: auto;
+    }
+}
+
+.announcement .new-pill {
+    padding: 0 6px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    background: #bf360c;
+    text-transform: uppercase;
+    border-radius: 10px
+}
+
+.announcement .message {
+    margin: 0 12px;
+}
+
+@media (min-width: 670px) {
+    .announcement .message {
+        margin: 0 7px 6px;
+    }
+}
+
+#intro {
+    position: relative;
+    min-height: 450px;
+}
+
+@media (min-width: 670px) {
+    #intro {
+        display: flex;
+        align-items: center;
+        height: 600px;
+    }
+}
+
+@media (min-width: 880px) {
+    #intro {
+        height: 690px;
+    }
+}
+
+@media (min-width: 670px) {
+    #intro h1 {
+        font-size: 40px;
+    }
+}
+
+#intro a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#intro h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 880px) {
+    #intro h1 {
+        font-size: 40px;
+    }
+}
+
+#intro p {
+    max-width: 500px;
+    margin-top: 20px;
+    color: #fff8e1;
+}
+
+@media (min-width: 670px) {
+    #intro p {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 880px) {
+    #intro p {
+        max-width: 50%;
+    }
+}
+
+#intro ul {
+    display: flex;
+    margin-top: 40px!important;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 670px) {
+    #intro ul {
+        margin-top: 65px!important;
+    }
+}
+
+#intro li:first-child a {
+    margin-right: 23px;
+    color: #fff;
+    background: #bf360c;
+    text-shadow: 0 1px 3px rgba(200,0,20,.4)
+}
+
+
+#stripes span {
+    height: 40px;
+    position: absolute;
+}
+
+@media(min-width: 670px) {
+    #stripes span {
+        height: 150px;
+    }
+}
+
+@media(min-width: 880px) {
+    #stripes span {
+        height: 190px;
+    }
+}
+
+#stripes {
+    position: absolute;
+    z-index: -1;
+    transform-origin: 0;
+    transform: skewY(-12deg);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(150deg,#c62828 15%,#ffca28 70%,#fff59d 94%);
+    overflow: hidden;
+}
+
+#stripes .one {
+    width: 50%;
+    left: 50%;
+    top: 40px;
+    background: #e53935;
+}
+
+@media(min-width: 670px) {
+    #stripes .one {
+        top: 0px;
+        background-color: #bf360c;
+    }
+}
+
+@media(min-width: 880px) {
+    #stripes .one {
+        width: 33.33333%;
+        left: -16.66666%;
+    }
+}
+
+#stripes .two {
+    width: 14%;
+    right: 0;
+    bottom: 40px;
+    background: #ffc107;
+}
+
+@media(min-width: 670px) {
+    #stripes .two {
+        width: 16.666667%;
+        top: 300px;
+        bottom: auto;
+    }
+}
+
+@media (min-width: 880px) {
+    #stripes .two {
+        width: 33.33333%;
+        top: 0 ;
+        left: 16.66666%;
+        right: auto;
+        background: #e53935;
+    }
+}
+
+#stripes .three {
+    width: 25%;
+    bottom: 0;
+    right: 0;
+    background: #ff4081;
+}
+
+@media (min-width: 670px) {
+    #stripes .three {
+        width: 33.33333%;
+        right: auto;
+        background-color: #ff8f00;
+    }
+}
+
+@media (min-width: 880px) {
+    #stripes .three {
+        width: 33.33333%;
+        left: 49.99999%;
+        bottom: auto;
+        background: #d32f2f;
+    }
+}
+
+@media (min-width: 670px) {
+    #stripes span {
+        height: 150px;
+    }
+}
+
+@media (min-width: 880px) {
+    #stripes .four {
+        width: 33.33333%;
+        top: 380px;
+        right: -16.66666%;
+        background: #ffc107;
+    }
+}
+
+@media (min-width: 880px) {
+    #stripes .five {
+        width: 33.33333%;
+        bottom: 0;
+        background-color: #ff8f00;
+    }
+}
