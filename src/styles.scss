@@ -26,7 +26,7 @@
 
 html, body, blockquote, button, dd, dl, figure, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 body {
@@ -40,4 +40,34 @@ body {
     font-feature-settings: "pnum";
     font-variant-numeric: proportional-nums;
     background-color: floralwhite;
+}
+
+.common-BodyText {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #e65100;
+}
+
+.common-Button {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  color: #ff9800;
+  text-decoration: none;
+  transition: all .15s ease;
+  text-decoration: none;
+}
+
+.common-Button:hover {
+  color: #81d4fa;
 }
