@@ -1,0 +1,125 @@
+#primary {
+    overflow: hidden;
+}
+
+.container-lg {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+@media (min-width: 880px) {
+    #introduction {
+        position: relative;
+        bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 580px;
+    }
+
+    #introduction > * {
+        flex: none;
+    }
+}
+
+#introduction .common-UppercaseTitle {
+    text-align: center;
+    color: #ff9800;
+}
+
+@media (min-width: 670px) {
+    #introduction .common-UppercaseTitle {
+        width: 50%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 880px) {
+    #introduction .common-UppercaseTitle {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin: -185px 0 0 0;
+        text-align: right;
+    }
+}
+
+#introduction .common-BodyText {
+    color: #525f7f;
+    padding-top: 35px;
+}
+
+@media (min-width: 880px) {
+    #introduction .common-BodyText {
+        width: 50%;
+        text-align: right;
+    }
+}
+
+#photo {
+    display: none;
+    position: absolute;
+    pointer-events: none;
+
+    @media (min-width: 670px) {
+        width: 50%;
+        transform: rotate(12deg);
+        top: 960px;
+        right: -60px;
+    }
+
+    @media (min-width: 880px) {
+        display: block;
+        top: 740px;
+        right: -40px;
+    }
+
+    @media (min-width: 1070px) {
+        top: 800px;
+        right: -50px;
+    }
+
+    @media (min-width: 1390px) {
+        top: 900px;
+        right: -50px;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+        padding: 5px;
+        background-color: floralwhite;
+    }
+}
+
+#photo2 {
+    display: none;
+    position: absolute;
+    pointer-events: none;
+
+    @media (min-width: 670px) {
+        width: 50%;
+        transform: rotate(-12deg);
+        top: 960px;
+        right: -60px;
+    }
+
+    @media (min-width: 880px) {
+        display: block;
+        top: 1140px;
+        right: -40px;
+    }
+
+    @media (min-width: 1070px) {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+        padding: 5px;
+        background-color: floralwhite;
+    }
+}

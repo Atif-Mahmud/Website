@@ -20,6 +20,9 @@ const appRoutes: Routes = [
       { enableTracing: true }
     )
   ],
-  declarations: []
+  declarations: [],
+  exports: [
+    RouterModule
+  ]
 })
 export class AppRoutingModule { }

@@ -71,3 +71,11 @@ body {
 .common-Button:hover {
   color: #81d4fa;
 }
+
+.common-UppercaseTitle {
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+}
