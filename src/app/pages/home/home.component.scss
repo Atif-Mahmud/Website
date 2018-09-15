@@ -65,7 +65,7 @@
 
     @media (min-width: 670px) {
         width: 50%;
-        transform: rotate(12deg);
+        transform: rotate(-12deg);
         top: 960px;
         right: -60px;
     }
@@ -77,12 +77,12 @@
     }
 
     @media (min-width: 1070px) {
-        top: 800px;
+        top: 740px;
         right: -50px;
     }
 
     @media (min-width: 1390px) {
-        top: 900px;
+        top: 740px;
         right: -50px;
     }
 

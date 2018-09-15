@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  announcement: String = 'Placeholder announcement';
+  announcement: String = 'I\'ve updated my CV, have a look!';
 
   constructor() { }
 
