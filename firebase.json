@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/atif-mahmud",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

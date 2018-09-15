@@ -6,8 +6,7 @@ import { PagesModule } from './pages/pages.module';
 import { HomeComponent } from './pages/home/home.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', component: HomeComponent },
   { path: '**', component: HomeComponent}
 ];
 
